@@ -47,5 +47,76 @@ blockquote, q {
 html{
     font-size: 62.5%;
 }
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
 
- 
+nav a{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 14px;
+    padding:0.5% 2%;
+    font-size: 1.5rem;
+    margin:2% 10% 3% 10%; 
+    text-align:center;
+}
+
+.orange{
+    background-color: #FF764E;
+    /* margin: 0% 0% 0% 0%; */
+    margin-left: 12%;
+}
+
+.blue{
+    background-color: #5ED3EB;
+}
+
+.yellow{
+    background-color: #FFCD69;
+}
+
+.top {
+    max-width: 100%;
+}
+
+.top img {
+    border-radius: 50%;
+    display:inline;
+    width: 25%;
+    margin: 2% 0% 0% 2%;
+}
+
+.right{
+    display: inline-block;
+    max-width: 75%;
+    height: 20%;
+    
+   
+}
+
+.left{
+    display: inline-block;
+    max-width: 25%;
+
+}
+
+.right h1 {
+    font-size: 4rem;
+    font-family: 'Chelsea Market', cursive;
+}
+
+.section4{
+    background-image: url("assets/footer_img.jpg");
+    height: 200px;
+    max-width: 100%;
+    background-position: center center;
+    /* object-fit: cover;
+    object-position: 0% 30%;
+    text-align: ; */
+    background-size: cover;
+   
+
+}
